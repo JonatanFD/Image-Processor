@@ -49,5 +49,5 @@ npm install
 ``` bash
 npm run dev
 ```
-5. Open your browser and go to http://localhost:3000 to use Image Processor.
+5. Open your browser and go to http://localhost:5173 to use Image Processor.
 
