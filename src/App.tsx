@@ -33,25 +33,4 @@ function App() {
     );
 }
 
-// Node js
 export default App;
-
-// React Js
-
-/*
-
-  <section className="w-screen h-screen flex flex-col lg:flex-row">
-            <Aside />
-
-            <section className="w-full py-4 overflow-y-auto flex">
-                {url && (
-                    <div className="flex flex-col gap-3 ">
-                        <Histogram color="gray" />
-                    </div>
-                )}
-            </section>
-            
-            
-        </section>
-
-*/

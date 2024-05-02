@@ -1,30 +1,53 @@
-# React + TypeScript + Vite
+# Image Processor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+Image Processor is an application designed to enhance the quality and clarity of grayscale images. It offers a user-friendly and efficient way to improve detail and address uneven contrast levels.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Characteristics
 
-## Expanding the ESLint configuration
+- **Gray scale expansion:** Image Processor expands the grayscale range of an image, enhancing its clarity.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Equalize Histograms:** Image Processor utilizes histogram equalization techniques to improve image contrast.
 
-- Configure the top-level `parserOptions` property like this:
+- **Intuitive Interface:** The application has a simple and minimalist interface for faster image editing.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+- **Real time preview:** Users can view the applied changes in real-time before saving the image, facilitating the image creation process.
+
+## Instructions 
+
+1. Open Image Processor https://image-processor-app.netlify.app/.
+2. Select an image.
+3. Enter your inputs to modify your image.
+4. Adjust settings to create several images.
+5. Preview your changes in rseal time.
+
+## Installation Guide (Vite.js)
+
+If you want to use this app, follow the next steps:
+
+1. Clone this repository:
+
+``` bash
+git clone https://github.com/tu-usuario/imagen-expander.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Navigate to the project directory:
+
+``` bash
+cd image-processor
+```
+
+3. Install all dependencies
+
+``` bash
+npm install
+```
+
+4. Start development server
+
+``` bash
+npm run dev
+```
+5. Open your browser and go to http://localhost:3000 to use Image Processor.
+
